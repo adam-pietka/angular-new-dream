@@ -9,8 +9,8 @@ import {Recipe} from "../recipes.model";
 export class RecipesListComponent implements OnInit {
 
   recipes: Recipe[] = [
-    new Recipe('a test recipe','test description of something','https://thebrilliantkitchen.com/wp-content/uploads/2022/08/General-Tsos-chicken.jpg.webp')
-    ,  new Recipe('a test recipe','test description of something','https://thebrilliantkitchen.com/wp-content/uploads/2022/08/General-Tsos-chicken.jpg.webp')
+    new Recipe('a test recipe','test description of something','https://th.bing.com/th/id/OIP.jQ04gATa0yfFNlwzNyJRBgHaLH?pid=ImgDet&rs=1')
+    , new Recipe('a test recipe','test description of something','https://live.staticflickr.com/5822/31006629172_eb7f7e9eb7_b.jpg')
   ]
 
   constructor() { }
